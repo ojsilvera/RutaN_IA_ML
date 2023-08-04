@@ -99,54 +99,51 @@ de manera efectiva y organizada, facilitando el aprendizaje y la práctica de lo
 
 ## Entorno online
 
-El texto describe cómo utilizar Google Colab, una herramienta en línea de Google para programar en Python y ejecutar
-cuadernos Jupyter en un entorno en la nube. A continuación, se presenta una sumarización organizada en pasos:
+El texto proporciona información detallada sobre cómo utilizar Google Colab (Google Collaboratory), un entorno de
+programación en línea que permite ejecutar código en Python y realizar tareas de aprendizaje automático. A continuación,
+se presenta un resumen organizado de los pasos y conceptos clave del texto:
 
-1. **Introducción y Limitaciones de Recursos Personales:**
-   - El texto inicia explicando que Anaconda es una distribución para ejecutar ejercicios prácticos fuera de línea.
-   - Reconoce que algunos pueden tener limitaciones, como falta de equipos potentes, y que ciertos algoritmos, como redes
-   - neuronales profundas, requieren recursos computacionales más robustos.
+1. **Introducción al Entorno Offline y Limitaciones:**
+   - Se menciona el uso de Anaconda como una distribución para configurar un entorno de aprendizaje offline.
+   - Algunas personas pueden tener limitaciones en sus equipos, como falta de potencia de cómputo.
+   - Se destaca que los ejercicios pueden requerir poder computacional, especialmente para algoritmos como redes neuro-
+     nales profundas.
 
-2. **Google Colab como Solución Online:**
-   - Para aquellos con limitaciones de recursos, el texto sugiere usar Google Colab (Google Colaboratory).
-   - Google Colab es un entorno en línea que permite programar en Python desde el navegador.
-   - Ventajas de Google Colab:
-     - No requiere configuración previa.
-     - Proporciona acceso gratuito a CPU y permite usar GPU para aceleración.
-     - Facilita el intercambio de contenido.
+2. **Introducción a Google Colab:**
+   - Google Colab (Google Collaboratory) se presenta como una solución en línea para ejecutar código en Python.
+   - Google Colab ofrece ventajas como ausencia de configuración, acceso gratuito a recursos de CPU y facilidad para
+     compartir contenido.
 
-3. **Características Generales de Google Colab:**
-   - Google Colab ofrece una experiencia similar a Jupyter Notebook en un entorno en línea.
-   - Funciona a través de cualquier dispositivo con acceso a internet.
-   - Existen tutoriales y documentación para ayudar a los usuarios a familiarizarse.
+3. **Características de Google Colab:**
+   - Google Colab es un entorno en línea que se ejecuta en la infraestructura tecnológica de Google.
+   - Los recursos computacionales provienen de los servidores de Google, no del dispositivo personal del usuario.
+   - Acceso a través de un navegador en diversos dispositivos, incluidos computadoras, tablets y móviles.
 
-4. **Trabajo con Cuadernos Jupyter en Google Colab:**
-   - Los cuadernos Jupyter son compatibles con Google Colab.
-   - Los ejercicios deben descargarse y luego subirse al entorno.
-   - Los cuadernos cargados contienen tanto texto como código en Python.
+4. **Pasos para Usar Google Colab:**
+   - Los usuarios deben registrarse en Google y acceder a Google Colab.
+   - La plataforma admite la compatibilidad directa con archivos de Jupyter Notebook.
+   - Los ejercicios se pueden cargar desde el sistema local al entorno de Google Colab.
+   - El entorno de ejecución se puede cambiar entre CPU y GPU para diferentes tipos de recursos.
 
-5. **Ejecución de Celdas en Google Colab:**
-   - Google Colab asigna recursos computacionales, como memoria y disco, para ejecutar celdas de código.
-   - Los comandos son similares a los de Jupyter Notebook, como "Shift + Enter" para ejecutar celdas.
+5. **Ejecución de Código en Google Colab:**
+   - Los usuarios pueden ejecutar celdas de código y texto similar a Jupyter Notebook.
+   - Se describe cómo ejecutar celdas, cómo ver el índice y navegar por el notebook.
 
-6. **Cambio de Entorno de Ejecución:**
-   - Google Colab permite cambiar entre diferentes tipos de recursos, como CPU y GPU.
-   - Cambiar a GPU puede acelerar los tiempos de entrenamiento en ejercicios de aprendizaje profundo.
+6. **Comparación de Rendimiento CPU y GPU:**
+   - Se presenta un ejemplo de entrenamiento de una red neuronal artificial utilizando CPU.
+   - El tiempo de ejecución se mide y se muestra que lleva alrededor de 29 segundos.
+   - Luego, se cambia al entorno de GPU y se muestra cómo el tiempo se reduce a 7.6 segundos.
+   - Se enfatiza que el uso de GPU es gratuito en Google Colab y puede acelerar el proceso de entrenamiento.
 
-7. **Comparación de Tiempos de Ejecución:**
-   - Se compara el tiempo de ejecución en CPU con GPU para un proceso de entrenamiento.
-   - Se muestra que los tiempos con GPU son significativamente más rápidos (7.6 segundos frente a 29 segundos).
+7. **Uso de Conjuntos de Datos Externos:**
+   - Se menciona que los conjuntos de datos externos también se pueden importar.
+   - Los usuarios pueden cargar los conjuntos de datos a través de la pestaña de archivos en Google Colab.
 
-8. **Uso de Conjuntos de Datos Externos:**
-   - Se explica cómo subir conjuntos de datos externos a Google Colab para su uso.
-   - Los archivos deben cargarse a través de la sección de archivos en el entorno.
+8. **Recomendaciones y Conclusión:**
+   - Se recomienda que los usuarios consideren tanto Google Colab como entornos locales como Anaconda y Jupyter Notebook.
+   - Los ejercicios pueden ser creados en Google Colab y luego descargados para su uso offline.
 
-9. **Recomendaciones Finales:**
-   - Se sugiere usar Google Colab para aquellos con recursos limitados y que deseen probar una opción en línea.
-   - Se recomienda la utilización conjunta de Google Colab y Jupyter Notebook.
-
-En resumen, el texto detalla cómo utilizar Google Colab como una alternativa en línea para programar en Python y ejecutar
-cuadernos Jupyter, particularmente enfocado en aquellos con limitaciones de recursos o interesados en una solución en la
-nube. Se explica cómo cargar y ejecutar cuadernos, cambiar entre recursos de CPU y GPU, y se comparan los tiempos de
-ejecución entre ambos entornos. También se brindan recomendaciones finales sobre el uso de Google Colab junto con otras
-soluciones.
+En resumen, el texto explica detalladamente cómo utilizar Google Colab como una alternativa en línea para ejecutar código
+en Python y realizar ejercicios de aprendizaje automático, especialmente útiles cuando se requiere mayor poder de cómputo.
+Describe cómo cargar ejercicios, ejecutar código en diferentes entornos de CPU y GPU, y brinda recomendaciones para utilizar
+eficazmente Google Colab junto con otras opciones de desarrollo.
